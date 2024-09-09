@@ -1,0 +1,85 @@
+/* App.css */
+
+body {
+  background-color: #000000; /* Background hitam */
+  color: #ffffff; /* Warna teks putih */
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.card-glow {
+  background-color: #1c1c1c; /* Background card lebih gelap */
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.5); /* Efek glow */
+  border: 1px solid #00ffff; /* Warna border cyan */
+  padding: 20px;
+  width: 400px;
+  
+}
+
+
+.card-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-dark {
+  background-color: #333333; /* Background input lebih gelap */
+  color: #ffffff;
+  border: 1px solid #555555;
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input-dark:focus {
+  background-color: #444444;
+  color: #ffffff;
+}
+
+button.btn-secondary {
+  color: #444;
+  background-color: #ffffff; /* Warna button gelap */
+  border-color: #00ffff;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button.btn-secondary:hover {
+  background-color: #444444;
+  border-color: #333333;
+}
+
+button.btn-primary {
+  background-color: #00ffff; /* Warna button gelap */
+  border-color: #00ffff;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button.btn-primary:hover {
+  background-color: #444444;
+  border-color: #333333;
+}
+.alert-info {
+  background-color: #333333;
+  color: #ffffff;
+  border: none;
+  margin-top: 20px;
+}
